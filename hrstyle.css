@@ -1,0 +1,341 @@
+/* Design by www.hrdesign.ru */
+
+html, body {
+margin: 0;
+height: 100%; 
+color: #597982; 
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 14px; 
+background: #FFFFFF url(images/bg_bg.jpg) center top repeat-y;
+}
+@font-face {
+    font-family: Gabriola; /* Гарнитура шрифта */
+    src: url(font/Gabriola.eot); /* Для IE5-8 */
+    src: local(Gabriola), url(font/Gabriola.ttf); /* Для остальных браузеров */
+   }
+.wrapper {
+height: auto !important;
+width: 1000px;
+margin-left: auto; 
+margin-right: auto;
+}
+header, section, footer, aside, article, figure {
+display: block;
+}
+ul, ol, dl {
+padding: 0;
+margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+margin-top: 0;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+th {
+font-weight:normal;
+}
+
+a img {
+border: none;
+}
+a {
+color: #42413C;
+text-decoration:none;
+-webkit-transition: all 0.2s ease;
+
+}
+a:hover, a:active, a:focus {
+text-decoration: none;
+}
+
+#bg_head {
+background:url(images/bg_head.jpg) center top no-repeat;
+}
+#bg_footer {
+background:url(images/bg_footer.jpg) center bottom no-repeat;
+}
+#header {
+background:url(images/header.jpg) no-repeat;
+height:447px;
+}
+#center_bg {
+background:url(images/center_bg.jpg) center  bottom repeat-y;
+}
+#center_header {
+background:url(images/center_header.jpg) center top no-repeat;
+}
+#center_footer {
+background:url(images/center_footer.jpg) center bottom no-repeat;
+}
+#footer {
+background:url(images/footer.jpg) no-repeat;
+height:104px;
+}
+#content {
+min-height:928px;
+padding:0px 34px 37px  30px;
+display:table;
+}
+
+aside {
+float:left;
+width:100%;
+}
+
+#sidebar_right {
+float:left;
+width:188px;
+padding-top:16px;
+}
+
+#sidebar_left {
+float:left;
+width:320px;
+padding-top:94px;
+padding-left:25px;
+
+}
+/* LOGIN */
+#login {
+	background:url(images/login_bg.jpg) no-repeat;
+	height:166px;
+}
+#login input { 
+color:#5ca8c3;
+font-family:"Comic Sans MS", cursive;
+font-size:12px;
+}
+#login_acc {
+margin:15px 0 0 65px;
+float:left;
+}
+#login_acc2 {
+margin:2px 0 0 65px;
+float:left;
+}
+#login_user {
+	background:url(images/login_user.jpg) no-repeat;
+	height:18px;
+	width:36px;
+	float:left;
+	margin-top:4px;
+}
+#login_acc input {
+	background:none;
+	border:none;
+	width:148px; 
+	height:20px;
+	float:left;
+	margin-top:2px;
+}
+#login_acc2 input {
+	background:none;
+	border:none;
+	width:148px; 
+	height:20px;
+	float:left;
+	margin-top:2px;	
+}
+
+#login_pass {
+	background:url(images/login_pass.jpg) no-repeat;
+	height:18px;
+	width:36px;
+	float:left;
+	margin-top:5px;
+}
+#login_bottons {
+margin:6px 0 0 65px;
+float:left;
+}
+#login_forg {
+background:url(images/login_forgot.jpg) no-repeat top;
+height:26px; width:85px;
+border:none; cursor:pointer;
+}
+#login_forg:hover {
+background:url(images/login_forgot.jpg) no-repeat bottom;
+}
+#login_enter {
+background:url(images/login_enter.jpg) no-repeat top;
+height:26px; width:85px;
+border:none; cursor:pointer;
+}
+#login_enter:hover {
+background:url(images/login_enter.jpg) no-repeat bottom;
+}
+/* MENU */
+#menu {
+	color:#569cb6;
+	padding:0 20px 0 20px;
+	width:260px;
+	text-align:center;
+	font-family:Gabriola;
+	font-size:18px;
+	text-shadow:8px 6px 1px #000000;
+	line-height:1.5;
+}
+#menu_title {
+	background:url(images/menu_title.png) no-repeat;
+	width:157px; height:56px; margin:0 auto;
+}
+#menu_ul {
+list-style:none;
+}
+#menu_ul a {
+color:#569cb6;	
+}
+
+
+#menu_li a {
+	-webkit-transition: all 0.2s ease;
+}
+
+#menu_li a:hover {
+	padding:0 5px 0 5px;
+	color:#8dcee7;
+}
+
+.menu_marker { display:none; }
+.menu_marker_l { display:none; }
+
+/* Last in forum */
+
+#last_in_forum {
+	color:#154455;
+	padding:15px 20px 0 20px;
+	width:260px;
+	font-size:11px;
+}
+#forum_title {
+	background:url(images/forum_title.png) no-repeat;
+	width:157px; height:56px; margin:0 auto;
+}
+#forum_ul { 
+list-style:none;
+width:211px;
+margin: 0 auto;
+}
+#forum_li {
+width:211px; height:41px;
+padding-bottom:15px;
+}
+#forum_li a {
+text-decoration:underline;
+color:#569cb6 ; font-size:12px;
+}
+#forum_li a:hover {
+color:#8dcee7;
+}
+#forum_li:hover {
+	background:url(images/forum_bg.jpg) no-repeat;
+}
+#forum_marker {
+	padding-left:10px;
+}
+#nowrap {
+width:160px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+/* Center block */
+/* banner zone */
+#banner_zone {
+	height:128px;
+}
+/* news */
+#news_header {
+	background:url(images/news_head.png) no-repeat;
+	height:97px;
+}
+#news_footer {
+	background:url(images/news_footer.png) no-repeat;
+	height:44px;
+}
+#news { 
+background:url(images/news_center.png) repeat-y;
+min-height:44px; font-size:12px; 
+}
+#news td {
+	padding: 5px 30px 0 30px;
+	text-align: left;
+}
+#zone {
+	padding-left:15px;
+}
+#zone img {
+max-width:440px;
+float:left;
+padding:5px;	
+}
+#date {
+padding:30px 0 0 33px;
+color:#b7e7ef;
+text-shadow:1px 0px 0px #000000;
+float:left;
+}
+#news_title {
+text-shadow:1px 0px 0px #000000;
+float:left;	color:#9bb9c1; font-size:14px;
+padding:30px 0 0 30px;
+}
+
+/* copy */
+#hr_logo {
+	margin:11px 0 0 102px;
+	background:url(images/hr_logo.jpg) no-repeat; 
+	background-position:top;
+	height:55px; width:103px;
+}
+#hr_logo:hover {
+	background-position:bottom;
+}
+#cop {
+font-size:12px;
+color:#284955;
+padding-top:10px;
+}
+#footer a {
+text-decoration:underline;
+color:#284955;
+}
+#footer a:hover {
+color:#6b8792;
+}
+#se {
+font-size:12px;
+color:#284955;
+padding-top:10px;
+}
+
+/* QINFO_BLOCK */
+.qinfo {
+	display: block;
+	float: left;
+	width: 181px;
+	height: 326px;
+	position: fixed;
+	z-index:100;
+	left: 65%;
+	top: -275px;
+	background:url(images/qinfo_block.png) no-repeat;
+	-webkit-transition: all 0.2s ease;
+	color:#FFF;
+
+}
+.qinfo:hover {
+	top: -150px;
+}
+
+
+
+.center_content {
+float:left;
+width:590px;
+padding:0px 0px 148px 0px;
+min-height:840px;
+}
+.center_content a { text-decoration:underline; }
+.center_content a:hover { text-decoration:none; color:#6a1818; }
